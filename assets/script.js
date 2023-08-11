@@ -7,13 +7,13 @@ function listTopics() {
 }
 
 function selectTopic() {
-    if (topics[0] === 'HTML') {
+    if (topics[3] === 'HTML') {
       console.log("Let's study HTML!");
-    } else if (topics[0] === 'CSS') {
+    } else if (topics[3] === 'CSS') {
       console.log("Let's study CSS!");
-    } else if (topics [0] === 'Git') {
+    } else if (topics [3] === 'Git') {
       console.log("Let's study Git!");
-    } else if (topics [0]=== 'JavaScript') {
+    } else if (topics [3]=== 'JavaScript') {
       console.log("Let's study JavaScript!");
     } else {
       console.log('Please try again!');
